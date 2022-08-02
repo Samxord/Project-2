@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-style:'Open Sans', sans-serif;
+}
+@media screen and (max-width:600px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+    }
+    
+}
+.logo img{
+    width: 13%;
+    margin: 50px;
+}
+@media screen and (max-width:600px){
+    .logo img{
+        width: 30%;
+        margin: 30px;
+    }
+}
+.container{
+    display: flex;
+}
+@media screen and (max-width:600px){
+    .container{
+        display: block;
+    }
+}
+/* .container h1{
+    display: block;
+}
+.container p{
+    display: block;
+} */
+.card img{
+    width: 80%;
+    margin: 20px 20px 20px 60px;
+}
+@media screen and (max-width:600px){
+    .card img{
+        width: 80%;
+        margin: 30px 38px;
+    }
+}
+.block{
+    width: 32%;
+    padding: 60px 15px;
+    color: white;
+    position: relative;
+    right: 70px;
+}
+.block p{
+    padding: 30px 0px;
+    line-height: 20px;
+    font-size: 16px;
+    font-style:'Open Sans', sans-serif;
+}
+.block h1{
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width:600px){
+    .block{
+        margin: 5px 110px 10px;
+        width: 80%;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 20px;
+    }
+        .block p{
+            font-size: 17px;
+            padding-top: 15px;
+        }
+}
+.register a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.7);
+    font-style:'Open Sans', sans-serif;
+}
+.register a:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+@media screen and (max-width:600px){
+    .register a{
+        font-size: 14px;
+    }
+}
+a{
+    color: orange;
+}
+.icons{
+    max-width: 100%;
+    float: right;
+    margin-top: 10em;
+}
+.icons a{
+    justify-content: space-around;
+    color: white;
+}
+.icons a i{
+    border: 1px solid #ffffff;
+     border-radius: 50px;
+     font-size: 30px;
+     cursor: pointer;
+    
+}
+.icons a i:hover{
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+.para{
+    max-width: 30%;
+    margin: auto;
+}
+@media screen and (max-width:600px){
+    .para{
+        max-width: 90%;
+        margin: auto;
+    }
+}
